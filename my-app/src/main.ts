@@ -1,1 +1,1 @@
-import './mobile.scss'
+import './styles/home/home-mobile.scss'

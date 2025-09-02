@@ -1,0 +1,119 @@
+@import '/src/variables/colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&display=swap');
+
+
+
+body {
+    background-color: $body-color;
+    padding: 1rem;
+    box-sizing: border-box;
+
+    #top-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+
+        #logo-top {
+            width: 10rem;
+        }
+        
+        button {
+            border: none;
+            background-color: rgb(255, 255, 255, 0);
+        }
+    }
+
+  // === MOBILE NAV AND CLOSE ICON INITIALLY HIDDEN === //  
+
+    #icon-close {
+        display: none;
+    }
+    #nav-mobile {
+        display: none;
+    }
+
+    // === HERO SECTION === //
+
+    #hero-section {
+        border-radius: 10px;
+        background-image: url('/assets/home/mobile/image-hero-coffeepress.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        text-align: center;
+        padding: 3rem 1rem;
+        margin-bottom: 5rem;
+
+        h1 {
+            color: white;
+            font-family: 'Fraunces', serif;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        p {
+            color: $paragraph-color;
+            font-family: 'Barlow', sans-serif;
+            line-height: 25px;
+            margin-bottom: 2.5rem;
+            opacity: 0.8;
+
+        }
+
+        #create-your-plan-button-top {
+            border: none;
+            border-radius: 6px;
+            width: 13.5rem;
+            height: 3.2rem;
+            font-family: 'Fraunces', serif;
+            color: $paragraph-color;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 3rem;
+
+
+        }
+    }
+
+    .create-your-plan-button {
+        background-color: $create-your-plan-button-color;
+    }
+}
+
+// === COLLECTION SECTION === //
+#collection-section {
+    border: 1px solid red;
+    text-align: center;
+    margin-bottom: 8rem;
+
+
+    h2 {
+        background: linear-gradient(180deg, #83888F 30%, #FFFFFF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    img {
+        width: 12rem;
+        margin: 2rem 0 0.5rem 0;
+    }
+
+    h3 {
+        font-family: 'Fraunces', serif;
+        font-size: 1.5rem;
+        color: #333D4B;
+    }
+
+    p {
+        font-family: 'Barlow', sans-serif;
+        font-size: 15px;
+        padding: 0 2rem;
+    }
+
+}
+
