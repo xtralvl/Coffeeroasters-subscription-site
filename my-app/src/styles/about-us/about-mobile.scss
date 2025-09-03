@@ -1,0 +1,122 @@
+// === THESE STYLES ARE FOR ABOUT PAGE === //
+
+@import '/src/variables/colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&display=swap');
+
+body {
+    padding: 1rem;
+    background-color: $body-color;
+
+
+// === ABOUT US SECTION STYLES === //
+
+#about-us-container {
+    margin-bottom: 7rem;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url('/assets/about/mobile/image-hero-whitecup.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+    h1 {
+        color: #FEFCF7;
+        font-family: 'Fraunces', serif;
+        font-size: 1.75rem;
+        margin: 0;
+    }
+
+    p {
+        font-family: 'Barlow', sans-serif;
+        font-size: 15px;
+        opacity: 0.8;
+        color: #FEFCF7;
+        line-height: 25px;
+        padding: 0 1.5rem;
+
+    }
+}
+
+// === OUR COMMITMENT SECION STYLES === //
+
+#our-commitment-section {
+    text-align: center;
+    margin-bottom: 12rem;
+
+
+    #commitment-image {
+        border-radius: 10px;
+        max-width: 100%;
+        height: 25rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        color: #333D4B;
+        font-family: 'Fraunces', serif;
+        margin: 3rem 0;
+
+    }
+
+    p {
+        opacity: 0.8;
+        color: #333D4B;
+        font-size: 15px;
+        font-family: 'Barlow', sans-serif;
+        line-height: 25px;
+    }
+}
+
+// === UNCOMPRIMISING QUALITY SECTION STYLES === //
+
+    #uncomprimising-quality-img {
+        position: absolute;
+        width: 75%;          /* smaller than 100% */
+        border-radius: 10px; /* optional */
+        z-index: 2;
+        left: 50%;           /* start 50% from the left of the container */
+        transform: translateX(-50%);
+        top: 101rem;
+
+
+    }
+
+    #uncomprimising-quality-section {
+        text-align: center;
+        background-color: #2C343E;
+        border-radius: 10px;
+        z-index: 1;
+        padding: 6rem 1.5rem 2rem 1.5rem;
+        margin-bottom: 7rem;
+
+
+
+
+          h2 {
+            font-family: 'Fraunces', serif;
+            font-size: 1.75rem;
+            color: #FEFCF7;
+            margin-top: 3rem;
+
+          }
+
+          p {
+            font-family: 'Barlow', sans-serif;
+            line-height: 25px;
+            font-size: 15px;
+            color: #FEFCF7;
+            opacity: 0.8;
+          }
+                  
+    }
+
+
+}
+
