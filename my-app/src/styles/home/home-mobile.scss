@@ -73,15 +73,12 @@ body {
             font-size: 18px;
             font-weight: bold;
             margin-bottom: 3rem;
+            background-color: $create-your-plan-button-color;
+
 
 
         }
     }
-
-    .create-your-plan-button {
-        background-color: $create-your-plan-button-color;
-    }
-
 
 // === COLLECTION SECTION === //
 #collection-section {
@@ -240,6 +237,117 @@ body {
     
         }
     
+    }
+
+    // === HOW IT WORKS SECTION === //
+
+    #how-it-works-section {
+        text-align: center;
+        margin-top: 5rem;
+
+
+        h2 {
+            font-size: 1.5rem;
+            color: #83888F;
+            font-family: 'Fraunces', serif;
+
+        }
+
+        .how-it-works-headers-number {
+            font-size: 4.5rem;
+            font-family: 'Fraunces', serif;
+            color: #FDD6BA;
+            font-weight: bold;
+            margin-bottom: 0;
+
+        }
+
+        .how-it-works-headers-text {
+            font-size: 1.75rem;
+            font-family: 'Fraunces', serif;
+            color: #333D4B;
+            font-weight: bold;
+            margin-bottom: 0;
+
+        }
+
+        .how-it-works-paragraph-text {
+            font-size: 15px;
+            font-family: 'Barlow', sans-serif;
+            color: #333D4B;
+            font-weight: lighter;
+            margin-bottom: 0;
+            line-height: 25px;
+
+        }
+
+        #create-your-plan-button-bottom {
+            border: none;
+            border-radius: 6px;
+            width: 13.5rem;
+            height: 3.2rem;
+            font-family: 'Fraunces', serif;
+            color: $paragraph-color;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: $create-your-plan-button-color;
+            margin: 4.5rem 0;
+        }
+    }
+
+    // === FOOTER === //
+
+    footer {
+        background-color: #2C343E;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        margin-bottom: 3rem;
+
+
+        #logo-footer {
+            margin-bottom: 2rem;
+            height: 2rem;
+            width: 15rem;
+            display: block;
+        }
+
+        #nav-footer {
+            text-align: center;
+
+            ul {
+                list-style: none;
+                padding-left: 0;
+
+
+                li {
+                    margin-bottom: 1.5rem;
+                    font-family: 'Barlow', sans-serif;
+
+
+
+                    a {
+                        text-decoration: none;
+                        letter-spacing: 0.92px;
+                        color: #83888F;
+
+
+                    }
+                }
+
+            }
+        }
+
+        #footer-social-media-icons-container {
+            margin-top: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+        }
+
     }
     
 
