@@ -6,7 +6,7 @@
 
 body {
     background-color: $body-color;
-    padding: 1rem;
+    padding: 1rem 0 5rem 0;
     box-sizing: border-box;
 
     #top-row {
@@ -304,7 +304,6 @@ body {
         justify-content: center;
         align-items: center;
         padding: 2rem;
-        margin-bottom: 3rem;
 
 
         #logo-footer {
