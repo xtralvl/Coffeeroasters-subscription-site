@@ -32,6 +32,7 @@ body {
     #icon-close {
         display: none;
     }
+    
     #nav-mobile {
         display: none;
     }
@@ -48,6 +49,8 @@ body {
         text-align: center;
         padding: 3rem 1rem;
         margin-bottom: 5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
 
         h1 {
             color: white;
@@ -83,18 +86,20 @@ body {
     }
 
 // === COLLECTION SECTION === //
+
+#our-collection-header {
+    background: linear-gradient(180deg, #83888F 1%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    margin: 0;
+}
+
 #collection-section {
     text-align: center;
     margin-bottom: 8rem;
 
 
-    h2 {
-        background: linear-gradient(180deg, #83888F 30%, #FFFFFF 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 3rem;
-        margin: 0;
-    }
 
     img {
         width: 12rem;
@@ -110,7 +115,8 @@ body {
     p {
         font-family: 'Barlow', sans-serif;
         font-size: 15px;
-        padding: 0 2rem;
+        padding: 0 3rem;
+        color: #333D4B;
     }
 
 }
